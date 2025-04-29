@@ -1,7 +1,7 @@
 const app = require('./app');
 
-// module.exports = (req, res) => {
-//   app(req, res);
-// };
+module.exports = (req, res) => {
+  app(req, res);
+};
 
-app.listen(3000)
+// app.listen(3000)

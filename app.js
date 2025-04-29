@@ -55,9 +55,9 @@ db.sequelize.sync(syncOption).then( async () => {
     }
 })
 
-app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
-})
+// app.listen(port, () => {
+//     console.log(`Listening on port ${port}`);
+// })
 
-// module.exports = app
+module.exports = app
 
