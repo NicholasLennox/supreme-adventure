@@ -16,6 +16,7 @@ const sequelize = new Sequelize({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT,
+    dialectModule: require('mysql2'), // Had to add this for vercel
     define: {
         timestamps: false
     }
